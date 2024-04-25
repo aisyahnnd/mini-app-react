@@ -2,6 +2,7 @@ import { Space, Typography } from "antd";
 import React from "react";
 
 function PokemonDetail({ data }) {
+  
   return (
     <div
       style={{
@@ -17,6 +18,9 @@ function PokemonDetail({ data }) {
         </Typography.Text>
         <Typography.Text style={{ color: "#5a4a9c" }}>
           Location: {data.location}
+        </Typography.Text>
+        <Typography.Text style={{ color: "#5a4a9c" }}>
+          Hitpoints: {data.hitpoints}
         </Typography.Text>
       </Space>
     </div>
