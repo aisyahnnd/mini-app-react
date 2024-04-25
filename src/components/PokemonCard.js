@@ -35,6 +35,7 @@ const PokemonCard = () => {
             style={{ marginBottom: "8px" }}
           />
           <PokemonDetail data={item} />
+          <span>Edited by: Aisyah</span>
         </Card>
       ))}
     </div>

@@ -2,7 +2,6 @@ import { Space, Typography } from "antd";
 import React from "react";
 
 function PokemonDetail({ data }) {
-  
   return (
     <div
       style={{
